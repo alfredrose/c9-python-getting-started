@@ -13,7 +13,7 @@ def run_demo():
     three_data = load_data(3)
 
     elapsed_time = default_timer() - start_time
-    print(f'The operation took {elapsed_time:.2} seconds')
+    print(f'The operation took {elapsed_time:.2f} seconds')
 
 def main():
     run_demo()
