@@ -29,6 +29,6 @@ async def main():
 
         # Print our results
         elapsed_time = default_timer() - start_time
-        print(f'The operation took {elapsed_time:.2} seconds')
+        print(f'The operation took {elapsed_time:.2f} seconds')
 
 asyncio.run(main())
